@@ -1,0 +1,108 @@
+body {
+    padding: 15% 25%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* font-weight: 500; */
+}
+
+.box {
+    height: 480px;
+    width: 350px;
+    border-radius: 25px;
+    /* width: 18rem; */
+}
+
+.color1 {
+    color: hsla(221, 100%, 96%, 0.6);
+}
+
+.font-wt-700 {
+    font-weight: 700;
+}
+
+#result-card {
+    text-align: center;
+    /* background-color: ; */
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #fff;
+}
+
+#summary-card {
+    background-color: #fff;
+}
+
+.result-head {
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.circle-marks {
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 170px;
+    width: 170px;
+    margin: 3rem auto;
+}
+
+.big-text {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.react {
+    font-weight: 700;
+}
+
+.card-text {
+    margin: 0.5rem 1.5rem;
+}
+
+
+.summary-head {
+    margin: 1.5rem 0.5rem 2.5rem;
+    font-weight: 700;
+}
+
+.data {
+    margin: 1rem 0.5rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cont1 {
+    margin: 2rem auto;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.button {
+    /* width: 18rem; */
+    margin-top: 1.5rem;
+    background: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    color: #fff;
+    border-color: #fff;
+    border-style: none;
+    padding: 0.7rem 7rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    border-color: #fff;
+    border-style: none;
+}
